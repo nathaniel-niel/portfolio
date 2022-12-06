@@ -1,11 +1,11 @@
 import React from "react";
 
-const Footer = () => {
+function Footer () {
     return (
         <footer className="p-4 bg-yellow-200">
             <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
-                    <a href="#">
+                    <a href="/#">
                         <h1>NIEL</h1>
                     </a>
                 </div>

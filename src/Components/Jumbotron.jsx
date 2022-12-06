@@ -1,6 +1,6 @@
 import React from "react";
 
-const Jumbotron = () => {
+function Jumbotron () {
     return (
         <div className="rounded border overflow-hidden">
             <div className="px-6 py-12">

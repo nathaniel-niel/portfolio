@@ -1,6 +1,6 @@
 import React from "react";
 
-const Card = () => {
+function Card () {
     return (
         <div className="rounded overflow-hidden shadow-md">
             <div className="px-6 py-4">
