@@ -5,7 +5,7 @@ import Project from './containers/Project'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/portfolio'>
       <Routes>
         <Route exact path='/' element={< Home />}/>
         {/* <Route exact path='/project' element={< Project />}/> */}
