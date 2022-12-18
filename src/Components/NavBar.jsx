@@ -10,7 +10,7 @@ function NavBar () {
     };
 
     return (
-        <nav className="bg-gray-100 fixed w-full top-0">
+        <nav className="h-fit top-0 sticky text-white z-10">
             <div className="mx-auto container py-5">
                 <div className="flex justify-between">
                     {/* LOGO */}
@@ -20,13 +20,13 @@ function NavBar () {
                     <div className="hidden md:flex items-center px-3 ">
                         <ul className="flex space-x-4">
                             <li>
-                                <a href="/#" className="hover:font-bold">Home</a> 
+                                <a href="#" className="hover:font-bold">Home</a> 
                             </li>
                             <li>
-                                <a href="/#" className="hover:font-bold">About</a>
+                                <a href="#aboutme" className="hover:font-bold">About</a>
                             </li>
                             <li>
-                             <a href="/#" className="hover:font-bold">Contact</a>
+                             <a href="#" className="hover:font-bold">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -44,10 +44,10 @@ function NavBar () {
                 </div>
             </div>
                 {/* Mobile Version Menu */}
-            <div className="container mx-auto hidden md:hidden py-2" id="mobile-menu">
-                <a className="px-4 py-2 block hover:bg-gray-300 hover:rounded" href="/#">Home</a>
-                <a className="px-4 py-2 block  hover:bg-gray-300 hover:rounded" href="/#">About</a>
-                <a className="px-4 py-2 block  hover:bg-gray-300 hover:rounded" href="/#">Contact</a>
+            <div className="container mx-auto hidden md:hidden py-2 bg-black" id="mobile-menu">
+                <a className="px-4 py-2 block hover:bg-gray-300 hover:rounded" href="#">Home</a>
+                <a className="px-4 py-2 block  hover:bg-gray-300 hover:rounded" href="#aboutme">About</a>
+                <a className="px-4 py-2 block  hover:bg-gray-300 hover:rounded" href="#">Contact</a>
 
             </div>
 

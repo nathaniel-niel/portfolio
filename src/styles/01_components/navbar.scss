@@ -1,4 +1,9 @@
-.bold-text {
-    font-weight: 700;
-    font-size: 18px;
+nav {
+    /* From https://css.glass */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,63,115,1) 35%, rgba(27,126,166,1) 70%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+
 }

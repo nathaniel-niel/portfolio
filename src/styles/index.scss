@@ -2,6 +2,17 @@
 
 // Components style import 
 @import "./01_components/navbar.scss";
+@import "./01_components/header.scss";
+@import "./01_components/aboutme.scss";
 
 // Container style import
 @import "./02_container/home.scss"; 
+
+body {
+    // overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    background-color:  #173f73 ;
+}
+html {
+    scroll-behavior: smooth;
+}
