@@ -20,13 +20,13 @@ function NavBar () {
                     <div className="hidden md:flex items-center px-3 ">
                         <ul className="flex space-x-4">
                             <li>
-                                <a href="#" className="hover:font-bold">Home</a> 
+                                <a href="/#" className="hover:font-bold">Home</a> 
                             </li>
                             <li>
                                 <a href="#aboutme" className="hover:font-bold">About</a>
                             </li>
                             <li>
-                             <a href="#" className="hover:font-bold">Contact</a>
+                             <a href="/#" className="hover:font-bold">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -45,9 +45,9 @@ function NavBar () {
             </div>
                 {/* Mobile Version Menu */}
             <div className="container mx-auto hidden md:hidden py-2 bg-cyan-blue" id="mobile-menu">
-                <a className="px-4 py-2 block hover:font-bold" href="#" onClick={toggleDropDownMenu}>Home</a>
+                <a className="px-4 py-2 block hover:font-bold" href="/#" onClick={toggleDropDownMenu}>Home</a>
                 <a className="px-4 py-2 block  hover:font-bold" href="#aboutme" onClick={toggleDropDownMenu}>About</a>
-                <a className="px-4 py-2 block  hover:font-bold" href="#"  onClick={toggleDropDownMenu}>Contact</a>
+                <a className="px-4 py-2 block  hover:font-bold" href="/#"  onClick={toggleDropDownMenu}>Contact</a>
 
             </div>
 
