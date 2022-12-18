@@ -3,11 +3,11 @@ import React from "react";
 function NavBar () {
 
     // toggle nav bar function
-    const toggleDopDownMenu = () => {
+    const toggleDropDownMenu = () => {
         const menu = document.getElementById('mobile-menu');
         menu.classList.toggle("hidden");
-        
     };
+
 
     return (
         <nav className="h-fit top-0 sticky text-white z-10">
@@ -33,7 +33,7 @@ function NavBar () {
 
                     {/* Menu Toggle */}
                     <div className="md:hidden flex items-center px-3">
-                        <button className="bg-gray-600 px-1 py-1 rounded" id="mobile-menu-button" onClick={toggleDopDownMenu}>
+                        <button className="bg-cyan-blue px-1 py-1 rounded" id="mobile-menu-button" onClick={toggleDropDownMenu}>
                             <svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                             </svg>
@@ -44,10 +44,10 @@ function NavBar () {
                 </div>
             </div>
                 {/* Mobile Version Menu */}
-            <div className="container mx-auto hidden md:hidden py-2 bg-black" id="mobile-menu">
-                <a className="px-4 py-2 block hover:bg-gray-300 hover:rounded" href="#">Home</a>
-                <a className="px-4 py-2 block  hover:bg-gray-300 hover:rounded" href="#aboutme">About</a>
-                <a className="px-4 py-2 block  hover:bg-gray-300 hover:rounded" href="#">Contact</a>
+            <div className="container mx-auto hidden md:hidden py-2 bg-cyan-blue" id="mobile-menu">
+                <a className="px-4 py-2 block hover:font-bold" href="#" onClick={toggleDropDownMenu}>Home</a>
+                <a className="px-4 py-2 block  hover:font-bold" href="#aboutme" onClick={toggleDropDownMenu}>About</a>
+                <a className="px-4 py-2 block  hover:font-bold" href="#"  onClick={toggleDropDownMenu}>Contact</a>
 
             </div>
 
